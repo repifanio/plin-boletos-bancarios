@@ -1,7 +1,7 @@
 {
-  "name": "gerar-boletos",
-  "version": "1.4.3",
-  "description": "Gerar boletos para vários bancos",
+  "name": "plin-boletos-bancarios ",
+  "version": "1.0.0",
+  "description": "Gerar boletos para vários bancos do sistema plin",
   "main": "index.js",
   "directories": {
     "example": "examples",
@@ -15,31 +15,12 @@
     "gerarCecred": "node ./examples/gerar-boleto-cecred.js",
     "gerarBrasil": "node ./examples/gerar-boleto-BancoDoBrasil.js"
   },
-  "keywords": [
-    "gerador",
-    "boleto",
-    "boletos",
-    "bancario",
-    "banco",
-    "cecred",
-    "sicredi",
-    "ailos",
-    "viacredi",
-    "bradesco",
-    "brasil",
-    "itau",
-    "caixa",
-    "economica",
-    "federal",
-    "santander",
-    "sicoob"
-  ],
   "author": {
-    "name": "Rômulo Cabral Santos",
-    "email": "romulosanttos1@gmail.com",
-    "homepage": "https://romulosanttos.github.io/"
+    "name": "Rafael Epifanio",
+    "email": "rafael.cepifanio@gmail.com",
+    "homepage": ""
   },
-  "license": "ISC",
+  "license": "MIT",
   "engines": {
     "node": ">=10.0.0"
   },
@@ -54,6 +35,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Romulosanttos/gerar-boletos.git"
+    "url": "https://github.com/repifanio/plin-boletos-bancarios.git"
   }
 }
