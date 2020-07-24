@@ -1,8 +1,8 @@
 {
   "name": "plin-boletos-bancarios",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Gerar boletos para vários bancos do sistema plin",
-  "main": "index.js",
+  "main": "./lib/index",
   "directories": {
     "example": "examples",
     "lib": "lib",
