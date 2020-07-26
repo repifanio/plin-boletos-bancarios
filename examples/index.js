@@ -23,7 +23,7 @@ const gerarPdf = (boleto, stream = null)=>{
 
 const gerarBoleto = (boleto_info)=>{
 	const { banco, pagador, boleto, beneficiario } = boleto_info;
-	const { datas, valor, especieDocumento, numeroDocumento } = boleto;
+	const { datas, valor, especieDocumento, numeroDocumento, ValorDeducoes } = boleto;
 	const da = Gerador.boleto.Datas;
 	const instrucoes = createInstrucoes();
 
@@ -36,6 +36,7 @@ const gerarBoleto = (boleto_info)=>{
 		.comPagador(createPagador(pagador))
 		.comBanco(banco)
 		.comValorBoleto(parseFloat(valor).toFixed(2)) //Apenas duas casas decimais
+		.comValorDeducoes(parseFloat(ValorDeducoes).toFixed(2)) //Apenas duas casas decimais
 		.comNumeroDoDocumento(numeroDocumento)
 		.comEspecieDocumento(especieDocumento) //Duplicata de Venda Mercantil
 		.comInstrucoes(instrucoes);

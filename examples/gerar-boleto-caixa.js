@@ -38,6 +38,10 @@ const boleto = {
     numeroDocumento: '1001',
     especieDocumento: 'DM',
     valor: 110.00,
+    valorDeducoes: 15.90,
+    valorDescontos: 21.00,
+    valorMulta: 11.50,
+    valorAcrescimos: 11.89,
     datas: {
       vencimento: '02-04-2020',
       processamento: '02-04-2019',
