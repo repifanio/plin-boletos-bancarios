@@ -40,6 +40,7 @@ const boleto = {
     valor: 110.00,
     valorDeducoes: 15.90,
     valorDescontos: 21.00,
+    locaisDePagamento: 'PREFERENCIALMENTE NAS CASAS LOTÉRICAS ATÉ O VALOR LIMITE',
     datas: {
       vencimento: '02-04-2020',
       processamento: '02-04-2019',
