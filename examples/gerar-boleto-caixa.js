@@ -25,7 +25,8 @@ const boleto = {
       contaDigito: '0',
       nossoNumero: '00000000061',
       nossoNumeroDigito: '8',
-      nrCedente: '788737'
+      nrCedente: '1105459',
+      nrCedenteDigito: '0',
     },
     endereco: {
       logradouro: 'Rua Pedro Lessa, 15',
