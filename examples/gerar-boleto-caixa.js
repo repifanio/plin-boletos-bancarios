@@ -21,12 +21,12 @@ const boleto = {
       carteira: '14',
       agencia: '00101',
       agenciaDigito: '5',
-      conta: '326446',
+      conta: '12778',
       contaDigito: '0',
-      nossoNumero: '00000000061',
+      nossoNumero: '222333777777777',
       nossoNumeroDigito: '8',
-      nrCedente: '1105459',
-      nrCedenteDigito: '0',
+      nrCedente: '005507',
+      nrCedenteDigito: '7',
     },
     endereco: {
       logradouro: 'Rua Pedro Lessa, 15',
@@ -44,7 +44,7 @@ const boleto = {
     valorDescontos: 21.00,
     locaisDePagamento: 'PREFERENCIALMENTE NAS CASAS LOTÉRICAS ATÉ O VALOR LIMITE',
     datas: {
-      vencimento: '02-04-2020',
+      vencimento: '08-10-2020',
       processamento: '02-04-2019',
       documentos: '02-04-2019'
     }
