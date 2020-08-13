@@ -4,7 +4,7 @@ const boleto = {
   banco: new Bancos.Caixa(),
   pagador: {
     nome: 'José Bonifácio de Andrada',
-    RegistroNacional: '12345678',
+    registroNacional: '02978998059',
     endereco: {
       logradouro: 'Rua Pedro Lessa, 15',
       bairro: 'Centro',
@@ -16,7 +16,7 @@ const boleto = {
   instrucoes: ['Após o vencimento Mora dia R$ 1,59', 'Após o vencimento, multa de 2%'],
   beneficiario: {
     nome: 'Empresa Fictícia LTDA',
-    cnpj: '43576788000191',
+    cnpj: '43576788000193',
     dadosBancarios: {
       carteira: '14',
       agencia: '00101',
